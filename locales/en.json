@@ -6,7 +6,8 @@
     "products": "Our Product",
     "contact": "Contact Us",
     "getInTouch": "Get in Touch",
-    "language": "Language"
+    "language": "Language",
+    "menu": "Menu"
   },
   "hero": {
     "title": "Integrated Farm in Gawe – Bana",
@@ -36,12 +37,21 @@
     "cropFarmingDesc": "Large-scale maize and soybeans"
   },
   "benefits": {
-    "sustainableFarming": "Sustainable Farming",
-    "sustainableFarmingDesc": "Integrated waste recycling system that turns farm waste into valuable resources",
-    "qualityProduction": "Quality Production",
-    "qualityProductionDesc": "Natural feeding and organic practices ensure the highest quality products",
-    "localReliable": "Local & Reliable",
-    "localReliableDesc": "Fresh products directly from our farm in Gawe – Bana to your table"
+    "sustainable": {
+      "title": "Sustainable Farming",
+      "description": "Integrated waste recycling system that turns farm waste into valuable resources",
+      "alt": "Farm"
+    },
+    "quality": {
+      "title": "Quality Production",
+      "description": "Natural feeding and organic practices ensure the highest quality products",
+      "alt": "First place ribbon"
+    },
+    "local": {
+      "title": "Local & Reliable",
+      "description": "Fresh products directly from our farm in Gawe – Bana to your table",
+      "alt": "Place marker"
+    }
   },
   "cta": {
     "title": "Need Fresh, Sustainable Products?",
@@ -49,16 +59,38 @@
     "button": "Get in Touch Today"
   },
   "footer": {
-    "title": "Ferme Intégrée Gawe",
-    "description": "A sustainable integrated farm in Gawe – Bana. Quality production, respect for environment",
-    "menu": "Menu",
-    "coreServices": "Core Services",
-    "contact": "Contact",
-    "phone": "Phone",
-    "email": "Email",
-    "location": "Location",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "accessibility": "Accessibility"
+    "description": "A sustainable integrated farm in Gawe – Bana. Quality production, respect for the environment",
+    "menu": {
+      "title": "Menu",
+      "home": "Home",
+      "about": "About Us",
+      "activities": "Our Activities",
+      "products": "Our Products",
+      "contact": "Contact Us"
+    },
+    "services": {
+      "title": "Core Services",
+      "pigFarming": "Pig Farming",
+      "blackSoldierFly": "Black Soldier Fly",
+      "fishFarming": "Fish Farming",
+      "duckFarming": "Duck Farming",
+      "rabbitFarming": "Rabbit Farming",
+      "cropFarming": "Crop Farming"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "phoneValue": "6xx-xxx-xxx",
+      "email": "Email",
+      "emailValue": "xxx xxx xxx"
+    },
+    "location": {
+      "title": "Location"
+    },
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "accessibility": "Accessibility"
+    }
   }
 }

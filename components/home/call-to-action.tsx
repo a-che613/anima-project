@@ -1,32 +1,40 @@
+"use client";
+
 import { JSX } from "react";
 import { Separator } from "../ui/separator";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-
-const menuItems = [
-  "Home",
-  "About Us",
-  "Our Activities",
-  "Our Products",
-  "Contact Us",
-];
-
-const coreServices = [
-  "Pig Farming",
-  "Black Soldier Fly",
-  "Fish Farming",
-  "Duck Farming",
-  "Rabbit Farming",
-  "Crop Farming",
-];
-
-const contactInfo = [
-  { label: "Phone", value: "6xx-xxx-xxx" },
-  { label: "Email", value: "xxx xxx xxx" },
-];
-
-const footerLinks = ["Privacy Policy", "Terms of Service", "Accessibility"];
+import { useTranslation } from "react-i18next";
 
 export const CallToActionSection = (): JSX.Element => {
+  const { t } = useTranslation();
+
+  const menuItems = [
+    t('footer.menu.home'),
+    t('footer.menu.about'),
+    t('footer.menu.activities'),
+    t('footer.menu.products'),
+    t('footer.menu.contact'),
+  ];
+
+  const coreServices = [
+    t('footer.services.pigFarming'),
+    t('footer.services.blackSoldierFly'),
+    t('footer.services.fishFarming'),
+    t('footer.services.duckFarming'),
+    t('footer.services.rabbitFarming'),
+    t('footer.services.cropFarming'),
+  ];
+
+  const contactInfo = [
+    { label: t('footer.contact.phone'), value: t('footer.contact.phoneValue') },
+    { label: t('footer.contact.email'), value: t('footer.contact.emailValue') },
+  ];
+
+  const footerLinks = [
+    t('footer.links.privacy'),
+    t('footer.links.terms'),
+    t('footer.links.accessibility'),
+  ];
   return (
     <footer className="relative w-full bg-[#350707] pb-8 sm:pb-12 lg:pb-16 pt-12 sm:pt-20 lg:pt-[150px] px-4 sm:px-6 lg:px-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-[1440px] mx-auto gap-6 sm:gap-8 lg:gap-[110px]">
@@ -44,8 +52,7 @@ export const CallToActionSection = (): JSX.Element => {
           </h2>
 
           <p className="font-['Roboto',Helvetica] font-bold text-white text-xs sm:text-sm leading-6 sm:leading-8">
-            A sustainable integrated farm in Gawe – Bana. Quality production,
-            respect for the environment
+            {t('footer.description')}
           </p>
 
           <div className="flex gap-3 sm:gap-4">
@@ -63,7 +70,7 @@ export const CallToActionSection = (): JSX.Element => {
 
         <nav className="flex flex-col gap-2 col-span-1 sm:col-span-2 lg:col-span-1">
           <h3 className="font-['Ubuntu',Helvetica] font-bold text-white text-lg sm:text-2xl leading-[24px] sm:leading-[30px] mb-2">
-            Menu
+            {t('footer.menu.title')}
           </h3>
 
           <ul className="flex flex-col gap-0 ml-4 sm:ml-[20px]">
@@ -82,7 +89,7 @@ export const CallToActionSection = (): JSX.Element => {
 
         <div className="flex flex-col gap-2 col-span-1 sm:col-span-2 lg:col-span-1">
           <h3 className="font-['Ubuntu',Helvetica] font-bold text-white text-lg sm:text-2xl leading-[24px] sm:leading-[30px] mb-2">
-            Core Services
+            {t('footer.services.title')}
           </h3>
 
           <ul className="flex flex-col gap-0 ml-4 sm:ml-[20px]">
@@ -98,7 +105,7 @@ export const CallToActionSection = (): JSX.Element => {
 
         <div className="flex flex-col gap-3 sm:gap-4 col-span-1 sm:col-span-2 lg:col-span-1">
           <h3 className="font-['Open_Sans',Helvetica] font-bold text-[#219653] text-lg sm:text-2xl leading-[32px] sm:leading-[47px]">
-            Contact
+            {t('footer.contact.title')}
           </h3>
 
           <div className="flex flex-col gap-1">
@@ -116,7 +123,7 @@ export const CallToActionSection = (): JSX.Element => {
 
           <div className="mt-4">
             <h4 className="font-['Roboto',Helvetica] font-bold text-[#219653] text-sm sm:text-base leading-6 sm:leading-8 whitespace-nowrap">
-              Location
+              {t('footer.location.title')}
             </h4>
           </div>
         </div>

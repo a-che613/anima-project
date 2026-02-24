@@ -1,31 +1,32 @@
+"use client";
+
 import { JSX } from "react";
 import { Card, CardContent } from "../ui/card";
-
-const benefits = [
-  {
-    icon: "/sf-icon.svg",
-    alt: "Farm",
-    title: "Sustainable Farming",
-    description:
-      "Integrated waste recycling system that turns farm waste into valuable resources",
-  },
-  {
-    icon: "/qp-icon.svg",
-    alt: "First place ribbon",
-    title: "Quality Production",
-    description:
-      "Natural feeding and organic practices ensure the highest quality products",
-  },
-  {
-    icon: "/lr-icon.svg",
-    alt: "Place marker",
-    title: "Local & Reliable",
-    description:
-      "Fresh products directly from our farm in Gawe – Bana to your table",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const PartnerBenefitsSection = (): JSX.Element => {
+  const { t } = useTranslation();
+
+  const benefits = [
+    {
+      icon: "/sf-icon.svg",
+      alt: t('benefits.sustainable.alt'),
+      title: t('benefits.sustainable.title'),
+      description: t('benefits.sustainable.description'),
+    },
+    {
+      icon: "/qp-icon.svg",
+      alt: t('benefits.quality.alt'),
+      title: t('benefits.quality.title'),
+      description: t('benefits.quality.description'),
+    },
+    {
+      icon: "/lr-icon.svg",
+      alt: t('benefits.local.alt'),
+      title: t('benefits.local.title'),
+      description: t('benefits.local.description'),
+    },
+  ];
   return (
     <section className="w-full flex justify-center py-8 sm:py-10 lg:py-12 px-4 sm:px-6 lg:px-10">
       <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-12 max-w-[1438px] px-4">
