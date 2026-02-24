@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Our Activities",
+    "products": "Our Product",
+    "contact": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Integrated Farm in Gawe – Bana",
+    "subtitle": "A sustainable approach to agriculture combining livestock farming, fish farming and crops for quality production in Cameroon.",
+    "exploreFarm": "Explore our farm",
+    "contactUs": "Contact Us"
+  },
+  "story": {
+    "label": "Our Story",
+    "title": "Building a sustainable future through integrated farming",
+    "description": "At Integrated Farm in Gawe – Bana, we practice a holistic approach where every element supports another. Our pigs, fish, ducks, rabbits, and crops work together in harmony, creating a zero-waste ecosystem that produces premium quality products while protecting our environment."
+  },
+  "activities": {
+    "title": "What We Do",
+    "subtitle": "Discover our diverse farming activities that work together in perfect harmony",
+    "pigFarming": "Pig Farming",
+    "pigFarmingDesc": "Fattening and breeding of quality pigs",
+    "blackSoldierFly": "Black Soldier Fly",
+    "blackSoldierFlyDesc": "Production of larvae for animal feed",
+    "fishFarming": "Fish Farming",
+    "fishFarmingDesc": "Tilapia, catfish and red snapper",
+    "duckFarming": "Duck Farming",
+    "duckFarmingDesc": "Reproduction and meat production",
+    "rabbitFarming": "Rabbit Farming",
+    "rabbitFarmingDesc": "Rabbit farming for meat",
+    "cropFarming": "Crop Farming",
+    "cropFarmingDesc": "Large-scale maize and soybeans"
+  },
+  "benefits": {
+    "sustainableFarming": "Sustainable Farming",
+    "sustainableFarmingDesc": "Integrated waste recycling system that turns farm waste into valuable resources",
+    "qualityProduction": "Quality Production",
+    "qualityProductionDesc": "Natural feeding and organic practices ensure the highest quality products",
+    "localReliable": "Local & Reliable",
+    "localReliableDesc": "Fresh products directly from our farm in Gawe – Bana to your table"
+  },
+  "cta": {
+    "title": "Need Fresh, Sustainable Products?",
+    "subtitle": "Contact us today to place your order.",
+    "button": "Get in Touch Today"
+  },
+  "footer": {
+    "title": "Ferme Intégrée Gawe",
+    "description": "A sustainable integrated farm in Gawe – Bana. Quality production, respect for environment",
+    "menu": "Menu",
+    "coreServices": "Core Services",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "accessibility": "Accessibility"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "activities": "Nos Activités",
+    "products": "Nos Produits",
+    "contact": "Contactez-nous",
+    "getInTouch": "Contactez-nous",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Ferme Intégrée Gawe – Bana",
+    "subtitle": "Une approche durable de l'agriculture combinant l'élevage, la pisciculture et les cultures pour une production de qualité au Cameroun.",
+    "exploreFarm": "Explorer notre ferme",
+    "contactUs": "Contactez-nous"
+  },
+  "story": {
+    "label": "Notre Histoire",
+    "title": "Construire un avenir durable grâce à l'agriculture intégrée",
+    "description": "À la Ferme Intégrée Gawe – Bana, nous pratiquons une approche holistique où chaque élément en soutient un autre. Nos porcs, poissons, canards, lapins et cultures travaillent ensemble en harmonie, créant un écosystème sans déchet qui produit des produits de qualité premium tout en protégeant notre environnement."
+  },
+  "activities": {
+    "title": "Ce Que Nous Faisons",
+    "subtitle": "Découvrez nos diverses activités agricoles qui travaillent ensemble en parfaite harmonie",
+    "pigFarming": "Élevage de Porcs",
+    "pigFarmingDesc": "Engraissement et reproduction de porcs de qualité",
+    "blackSoldierFly": "Mouche Soldat Noir",
+    "blackSoldierFlyDesc": "Production de larves pour l'alimentation animale",
+    "fishFarming": "Pisciculture",
+    "fishFarmingDesc": "Tilapia, poisson-chat et vivaneau rouge",
+    "duckFarming": "Élevage de Canards",
+    "duckFarmingDesc": "Reproduction et production de viande",
+    "rabbitFarming": "Élevage de Lapins",
+    "rabbitFarmingDesc": "Élevage de lapins pour la viande",
+    "cropFarming": "Culture de Céréales",
+    "cropFarmingDesc": "Maïs et soja à grande échelle"
+  },
+  "benefits": {
+    "sustainableFarming": "Agriculture Durable",
+    "sustainableFarmingDesc": "Système intégré de recyclage des déchets qui transforme les déchets agricoles en ressources précieuses",
+    "qualityProduction": "Production de Qualité",
+    "qualityProductionDesc": "L'alimentation naturelle et les pratiques biologiques garantissent les produits de la plus haute qualité",
+    "localReliable": "Local et Fiable",
+    "localReliableDesc": "Produits frais directement de notre ferme à Gawe – Bana jusqu'à votre table"
+  },
+  "cta": {
+    "title": "Besoin de Produits Frais et Durables ?",
+    "subtitle": "Contactez-nous dès aujourd'hui pour passer votre commande.",
+    "button": "Contactez-nous Aujourd'hui"
+  },
+  "footer": {
+    "title": "Ferme Intégrée Gawe",
+    "description": "Une ferme intégrée durable à Gawe – Bana. Production de qualité, respect de l'environnement",
+    "menu": "Menu",
+    "coreServices": "Services Principaux",
+    "contact": "Contact",
+    "phone": "Téléphone",
+    "email": "Email",
+    "location": "Localisation",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "accessibility": "Accessibilité"
+  }
+}
